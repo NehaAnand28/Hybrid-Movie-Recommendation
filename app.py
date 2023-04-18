@@ -14,7 +14,7 @@ def _image_is_gif(pil_image):
 
 def get_movie_poster(movie_name):
     Movie_ID = get_Tmdb_id(movie_name)
-    query = 'https://api.themoviedb.org/3/movie/' + str(Movie_ID) + '?api_key=0270df115f1eb09b6c87a6a3a1230316'
+    query = 'https://api.themoviedb.org/3/movie/' + str(Movie_ID) + '?api_key=abc'
     img = "https://image.tmdb.org/t/p/w185/"
     response = requests.get(query)
     if response.status_code == 200:
