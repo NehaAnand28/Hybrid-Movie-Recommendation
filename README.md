@@ -22,4 +22,6 @@ pip install -r requirements.txt
 ```.py
 streamlit run app.py
 ```
+## Ouput 
+![Top 10)](https://user-images.githubusercontent.com/70203777/232697385-92fc9a68-d6c2-4b8b-8bd9-cfed67ae1ae8.png)
 ----
